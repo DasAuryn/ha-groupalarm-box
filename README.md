@@ -1,8 +1,7 @@
 # GroupAlarm Box Integration für Home Assistant
 
-[![GitHub Activity][commits-shield]][commits]
-[![hacs][hacsbadge]][hacs]
-
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
+![GitHub all releases](https://img.shields.io/github/downloads/DasAuryn/ha-groupalarm-box/total)
 ## Hinweise
 
 - Diese Integration **provisioniert** die GroupAlarm Box automatisch mit deinen Home-Assistant-MQTT-Einstellungen (Broker/Port/User/Pass/Prefix).
