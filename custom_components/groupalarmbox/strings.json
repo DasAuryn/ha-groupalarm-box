@@ -1,0 +1,49 @@
+{
+  "config": {
+    "step": {
+      "confirm": {
+        "title": "GroupAlarmBox gefunden",
+        "description": "{found}",
+        "data": {
+          "mqtt_host": "MQTT Host (Home Assistant Broker)",
+          "mqtt_port": "MQTT Port",
+          "mqtt_user": "MQTT Benutzer (optional)",
+          "mqtt_password": "MQTT Passwort (optional)",
+          "mqtt_prefix": "Discovery Prefix",
+          "udp_port": "UDP Provisioning Port"
+        }
+      },
+      "user": {
+        "title": "Manuell einrichten",
+        "description": "Falls Zeroconf/mDNS geblockt ist, trage hier alles manuell ein.",
+        "data": {
+          "device_ip": "Box IP",
+          "mqtt_host": "MQTT Host",
+          "mqtt_port": "MQTT Port",
+          "mqtt_user": "MQTT Benutzer (optional)",
+          "mqtt_password": "MQTT Passwort (optional)",
+          "mqtt_prefix": "Discovery Prefix",
+          "udp_port": "UDP Provisioning Port"
+        }
+      }
+    },
+    "abort": {
+      "not_groupalarmbox": "Dieses Gerät ist keine GroupAlarmBox."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Optionen",
+        "data": {
+          "mqtt_host": "MQTT Host",
+          "mqtt_port": "MQTT Port",
+          "mqtt_user": "MQTT Benutzer (optional)",
+          "mqtt_password": "MQTT Passwort (optional)",
+          "mqtt_prefix": "Discovery Prefix",
+          "udp_port": "UDP Provisioning Port"
+        }
+      }
+    }
+  }
+}
