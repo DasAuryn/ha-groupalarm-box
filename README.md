@@ -29,7 +29,7 @@ Die Box veröffentlicht danach:
 > (typisch: `homeassistant`). Wenn du hier z. B. `groupalarmbox` verwendest, muss Home Assistant ebenfalls diesen Prefix nutzen.
 
 ## Installation
-
+  [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DasAuryn&repository=ha-groupalarm-box&category=Integration)
 ### Option A: HACS (empfohlen)
 
 1. HACS öffnen
