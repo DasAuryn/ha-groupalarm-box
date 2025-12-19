@@ -72,7 +72,7 @@ class GroupAlarmBoxZeroconfListener:
             return
         self._provisioned_devices.add(device_id)
 
-        sensor_id = f"sensor.groupalarmbox_{device_id}_ip"
+        sensor_id = f"sensor.{device_id}_ip"
         _LOGGER.info("GroupAlarmBox gefunden: %s (device_id=%s, ip=%s)", name, device_id, ip)
 
         self.hass.states.async_set(
